@@ -37,7 +37,7 @@ Add following snippet to your pom.xml (change &lt;usage/&gt; section) and hit "m
 
 Result is shown below:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![](http://i.minus.com/jbqyE1Al0ObBgf.png)
 
 License
