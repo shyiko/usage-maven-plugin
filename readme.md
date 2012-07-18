@@ -12,7 +12,7 @@ Add following snippet to your pom.xml (change &lt;usage/&gt; section) and hit "m
             <plugin>
                 <groupId>com.github.shyiko.usage-maven-plugin</groupId>
                 <artifactId>usage-maven-plugin</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>1.0.0</version>
                 <configuration>
                     <usage>
                         # deploy snapshot to Sonatype Nexus Snapshots
@@ -28,7 +28,7 @@ Add following snippet to your pom.xml (change &lt;usage/&gt; section) and hit "m
             <extension>
                 <groupId>com.github.shyiko.usage-maven-plugin</groupId>
                 <artifactId>usage-maven-plugin</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>1.0.0</version>
             </extension>
         </extensions>
     </build>
