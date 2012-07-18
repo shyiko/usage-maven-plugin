@@ -28,7 +28,7 @@ import java.util.Arrays;
 public class NonRecursiveExtension extends AbstractMavenLifecycleParticipant {
 
     public void afterProjectsRead(MavenSession session) {
-        if (session.getGoals().isEmpty()) {
+        if (session.getGoals().isEmpty() && session.getUserProperties().isEmpty()) {
             session.setProjects(Arrays.asList(session.getTopLevelProject()));
             if (session.getCurrentProject().getDefaultGoal() == null) {
                 session.getGoals().add("usage:show");
